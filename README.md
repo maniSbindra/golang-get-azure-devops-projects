@@ -68,7 +68,7 @@ tstazdoprj76,xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxxx,2022-07-30 15:54
 
 ```bash
 > export azdoPAT=YOUR_AzureDevOps_PAT
-> go run getProjects.go --organizationUrl="https://dev.azure.com/YOUR_ORGANIZATION/" --personalAccessToken=$azdoPAT --filterDate='2022-08-01 00:00'
+> go run getProjects.go --organizationUrl="https://dev.azure.com/YOUR_ORGANIZATION/" --personalAccessToken=$azdoPAT --filterDate="2022-08-01 00:00"
 
 2022/08/01 17:51:16 count of all projects: 319
 2022/08/01 17:51:16 Filtering projects by date
@@ -79,7 +79,7 @@ tstazdoprj76,xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxxx,2022-07-30 15:54
 
 ```bash
 > export azdoPAT=YOUR_AzureDevOps_PAT
-> go run getProjects.go --organizationUrl="https://dev.azure.com/YOUR_ORGANIZATION/" --personalAccessToken=$azdoPAT --filterDate='2022-08-01 00:00' --showProjectDetails
+> go run getProjects.go --organizationUrl="https://dev.azure.com/YOUR_ORGANIZATION/" --personalAccessToken=$azdoPAT --filterDate="2022-08-01 00:00" --showProjectDetails
 
 2022/08/01 17:52:22 count of all projects: 319
 2022/08/01 17:52:22 Filtering projects by date
